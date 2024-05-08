@@ -12,7 +12,7 @@ Managed identities are more secure because:
 - The credentials are automatically tied to the lifetime of your IoT Central application.
 - Managed identities automatically rotate their security keys regularly.
 
-IoT Central currently uses [system-assigned managed identities](../articles/active-directory/managed-identities-azure-resources/overview.md#managed-identity-types).
+IoT Central currently uses [system-assigned managed identities](../articles/entra-docs/blob/main/docs/identity/managed-identities-azure-resources/overview.md#managed-identity-types).
 
 When you configure a managed identity, the configuration includes a *scope* and a *role*:
 
